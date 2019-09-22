@@ -46,15 +46,11 @@ echo '</font>';
 ?>
 
 
-
 <font face=Ubuntu size="2" color="white">
 <center><br><div id="steal"><a href="/"><b>/home<b/></a>
 
 <a href="/?chart" rel="nofollow" target="_blank"><b>schedule</b></a></div><br>
 </font>
-
-
-
 
 <?php
 echo'<font color=gold>';
@@ -85,7 +81,7 @@ if(isset($_GET['x'])){
 
 $babi = $_GET['x'];
 $bangsat = 'https://www.oploverz.in/page/';
-$kontol = $bangsat . $babi . '/'; // site.com/search?q="query" lo jadi ini dipecah jadi 2
+$kontol = $bangsat . $babi . '/'; 
 $curl = curl_init($kontol); 
 
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, TRUE); 
