@@ -1,5 +1,6 @@
 ## Erza  
-oploverz scraper+bypasser
+oploverz scraper+bypasser  
+
 ![](https://img.shields.io/badge/codename-erza-lightgrey) ![](https://img.shields.io/github/last-commit/sinkaroid/erza)  
 
 ```  
